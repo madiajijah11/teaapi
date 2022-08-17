@@ -1,0 +1,9 @@
+{
+  "name": "black tea",
+  "image": "dummy",
+  "description": "this is description",
+  "keywords": ["black","china","tea"],
+  "origin": "China",
+  "brew_time": 2,
+  "temperature": 80
+}
