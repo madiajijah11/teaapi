@@ -22,10 +22,6 @@ app.route("/").get((req, res) => {
 // establish connection to database
 mongoose.connect(
 	process.env.MONGODB_URI,
-	{
-		server: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } },
-		replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } },
-	},
 	// error handling
 	(err) => {
 		if (err) return console.log(`Error : ${err}`);
